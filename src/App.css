@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html, body, #root, .App, .home {
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.App .home .header {
+  height: 160px;
+  border-bottom: 3px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  line-height: 160px;
+}
+
+.App .home .header a {
+  font-weight: bold;
+  color: slategrey;
+}
+
+.App .home .header a.active-link {
+  color: tomato;
+}
+
+.App .items {
+  float: left;
+  margin: 37px;
+}
+
+.App .detail {
+  width: 100%;
+  height: 100%;
+}
+
+.App .detail .a1 {
+  width: 100%;
+  height: 200px;
+  line-height: 200px;
+  border-bottom: 3px solid #ccc;
+  font-weight: bold;
+}
+
+.App .detail .im {
+  width: 100%;
+  height: 200px;
+  border-bottom: 3px solid #ccc;
+  float: left;
+}
+
+.App .detail .jian {
+  width: 80px;
+  height: 50px;
+  float: left;
+  margin: 23px;
+}
+
+.App .detail .jia {
+  width: 80px;
+  height: 50px;
+  float: left;
+  margin: 23px;
+}
+
+.App .detail .ppp {
+  float: left;
+  width: 122px;
+  height: 50px;
+  margin: 23px;
+}
+
+.App .detail .ppp .price {
+  color: red;
+}
+
+.App .detail .danjia {
+  display: none;
+}
+
+.App .detail .nums {
+  margin: 23px;
+}
